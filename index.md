@@ -1,5 +1,5 @@
 ---
-title: Jekyll Serif Theme
+title: dLake
 layout: home
 description: Consulting in information technologies area. Easy digital transformation. Best industrial experience and state-of-the-art solutions at your disposal.
 intro_image: "images/illustrations/pointing.svg"
