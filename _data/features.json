@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "Data engineering",
+    "description": "Quality-driven ETL pipelines. Industry standard storage and retrieval technologies in data-intensive applications.",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Architecture",
+    "description": "Designing flexible, maintainable, stable and future-proof cloud based and on-premises solutions.",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "DevOps",
+    "description": "Combination of best practices, cultural philosophies, tools and technologies in order to develop products of predictably high quality.",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]
