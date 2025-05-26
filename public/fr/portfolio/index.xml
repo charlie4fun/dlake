@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on Hugo Avance</title>
+    <link>https://hugo-advance.netlify.app/fr/portfolio/</link>
+    <description>Recent content in Portfolio on Hugo Avance</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 20 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hugo-advance.netlify.app/fr/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github</title>
+      <link>https://hugo-advance.netlify.app/fr/portfolio/github/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://hugo-advance.netlify.app/fr/portfolio/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://hugo-advance.netlify.app/fr/portfolio/research/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://hugo-advance.netlify.app/fr/portfolio/research/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

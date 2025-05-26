@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Team on Hugo Advance</title>
+    <link>https://hugo-advance.netlify.app/team/</link>
+    <description>Recent content in Team on Hugo Advance</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Dec 2018 13:44:30 +1000</lastBuildDate>
+    <atom:link href="https://hugo-advance.netlify.app/team/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sage Kirk</title>
+      <link>https://hugo-advance.netlify.app/team/sage-kirk/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:30 +1000</pubDate>
+      <guid>https://hugo-advance.netlify.app/team/sage-kirk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robert Johnson</title>
+      <link>https://hugo-advance.netlify.app/team/robert-johnson/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:30 +1000</pubDate>
+      <guid>https://hugo-advance.netlify.app/team/robert-johnson/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mike Vance</title>
+      <link>https://hugo-advance.netlify.app/team/mike-vance/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:30 +1000</pubDate>
+      <guid>https://hugo-advance.netlify.app/team/mike-vance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Michelle Stewart</title>
+      <link>https://hugo-advance.netlify.app/team/michelle-stewart/</link>
+      <pubDate>Thu, 20 Dec 2018 13:44:30 +1000</pubDate>
+      <guid>https://hugo-advance.netlify.app/team/michelle-stewart/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
