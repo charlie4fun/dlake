@@ -12,6 +12,7 @@ Gemfile.lock
 **/Gemfile.lock
 
 # Temporary files
+public/
 tmp
 .DS_Store
 Desktop.ini

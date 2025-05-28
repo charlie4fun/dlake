@@ -55,7 +55,7 @@ params:
     monospace: "'Source Code Pro'"
 
   logo:
-    logo_text: "Advance"
+    logo_text: ""
     logo_image_desktop: images/logo/logo.svg
     logo_image_mobile: images/logo/logo-mobile.svg
     logo_image_desktop_invert: images/logo/logo-invert.svg # used on transparent header and when in dark mode. Normally a white version of the logo.
@@ -79,8 +79,8 @@ params:
   open_graph:
     og_type: "website"
     og_twitter_card: "summary"
-    og_twitter_site: "@zerostaticio"
-    og_twitter_creator: "@zerostaticio"
+    og_twitter_site: ""
+    og_twitter_creator: ""
 
   dark_mode:
     enable_dark_mode: true
@@ -105,17 +105,17 @@ params:
     commento:
       enabled: false # you must have a commento account and be on the correct domain. does not work locally.
     disqus:
-      shortname: "zerostatic" # Your disqus shortcode for example "zerostatic". leave this blank ie "" to disable.
+      shortname: "" # Your disqus shortcode for example "zerostatic". leave this blank ie "" to disable.
 
   newsletter:
     mailchimp:
-      form_action_url: https://zerostatic.us21.list-manage.com/subscribe/post?u=798e19886b83aaab346734382&amp;id=f1c526a772&amp;f_id=0027e3e6f0
+      form_action_url: ""
       form_title: "Let's keep in touch"
 
   contact_form:
     use_netlify_form: false
     use_formspree_form: true
-    formspree_endpoint: https://formspree.io/f/moqyklqv
+    formspree_endpoint: https://formspree.io/f/mnqeykdg
     netlify_form_name: "contact"
 
   multilingual:
@@ -129,7 +129,7 @@ params:
   footer:
     enable_footer: true
     enable_footer_info: true # will show the section with the logo, title and description.
-    footer_title: "Hugo Advance"
+    footer_title: "Cirro Cloud"
     footer_logo: ""
     footer_logo_height: "32px"
     footer_logo_width: "32px"
@@ -147,7 +147,7 @@ params:
   bottom:
     enabled: true
     enable_bottom_menu: true
-    copyright_text: "© 2023 Zerostatic Themes"
+    copyright_text: "© 2025 Cirro Cloud GmbH"
     show_rss_icon: true
 
 languages:
@@ -182,8 +182,8 @@ languages:
           url: /about/
           pageRef: about
           weight: 4
-        - name: Buy Now
-          url: "https://www.zerostatic.io/theme/hugo-advance/"
+        - name: "Contact Us"
+          url: /contact/
           weight: 10
           params:
             external: true
@@ -223,44 +223,44 @@ languages:
           url: /privacy/
           weight: 2
 
-  fr:
+  de:
     weight: 1
-    languageName: Français
-    contentDir: content/fr
-    title: Hugo Avance
+    languageName: Deutsch
+    contentDir: content/de
+    title: Cirro Cloud
     params:
       footer:
-        footer_primary_menu_title: Produit
-        footer_secondary_menu_title: Compagnie
-        footer_tertiary_menu_title: Support
+        footer_primary_menu_title: Produkt
+        footer_secondary_menu_title: Unternehmen
+        footer_tertiary_menu_title: Unterstützung
     menu:
       main:
-        - name: "Prestations de service"
+        - name: "Dienstleistungen"
           identifier: services
           url: /services/
           weight: 1
-        - name: "Notre Travail"
-          identifier: work
-          url: /work/
-          weight: 2
-        - name: "Blog"
-          identifier: blog
-          url: /blog/
-          weight: 3
-        - name: "À Propos"
+#        - name: "Notre Travail"
+#          identifier: work
+#          url: /work/
+#          weight: 2
+#        - name: "Blog"
+#          identifier: blog
+#          url: /blog/
+#          weight: 3
+        - name: "Über uns"
           identifier: about
           url: /about/
           weight: 4
       footer_primary:
-        - name: "Services"
+        - name: "Dienstleistungen"
           url: /services/
           weight: 1
         - name: "Work"
           url: /work/
           weight: 2
       footer_tertiary:
-        - name: Buy Now
-          url: "https://www.zerostatic.io/theme/hugo-advance/"
+        - name: Kontakt
+          url: /contact/
           weight: 10
           params:
             external: true
