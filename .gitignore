@@ -13,6 +13,7 @@ Gemfile.lock
 
 # Temporary files
 public/
+resources/
 tmp
 .DS_Store
 Desktop.ini
@@ -21,3 +22,4 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 .idea
+.hugo_build.lock
