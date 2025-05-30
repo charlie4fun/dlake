@@ -129,7 +129,7 @@ params:
   footer:
     enable_footer: true
     enable_footer_info: true # will show the section with the logo, title and description.
-    footer_title: "Cirro Cloud"
+    footer_title: ""
     footer_logo: ""
     footer_logo_height: "32px"
     footer_logo_width: "32px"
@@ -140,9 +140,9 @@ params:
     enable_menu_footer_primary: true
     enable_menu_footer_secondary: true
     enable_menu_footer_tertiary: true
-    footer_primary_menu_title: "Product"
+    footer_primary_menu_title: ""
     footer_secondary_menu_title: "Company"
-    footer_tertiary_menu_title: "Support"
+    footer_tertiary_menu_title: "Other"
 
   bottom:
     enabled: true
@@ -188,39 +188,51 @@ languages:
           params:
             external: true
             button: true
-      footer_primary:
+#      footer_primary:
+#        - name: "Services"
+#          url: /services/
+#          weight: 1
+#        - name: "Work"
+#          url: /work/
+#          weight: 2
+      footer_secondary:
+        - name: "Home"
+          url: /
+          pageRef: "home"
+          weight: 1
         - name: "Services"
           url: /services/
-          weight: 1
-        - name: "Work"
-          url: /work/
+          pageRef: "services"
           weight: 2
-      footer_secondary:
         - name: "Team"
           url: /team/
           pageRef: "team"
-          weight: 1
-      footer_tertiary:
-        - name: Buy Now
-          url: "https://www.zerostatic.io/theme/hugo-advance/"
-          weight: 1
-          params:
-            external: true
-            button: true
+          weight: 3
         - name: "Contact"
           url: /contact/
-          weight: 2
           pageRef: "contact"
-        - name: "Styleguide"
-          url: /styleguide/
-          weight: 3
-          pageRef: "styleguide"
+          weight: 4
+      footer_tertiary:
+#        - name: Buy Now
+#          url: "https://www.zerostatic.io/theme/hugo-advance/"
+#          weight: 1
+#          params:
+#            external: true
+#            button: true
+        - name: "Privacy policy"
+          url: /privacy/
+          pageRef: "privacy"
+          weight: 1
+        - name: "Impressum"
+          url: /impressum/
+          pageRef: "impressum"
+          weight: 2
       bottom:
-        - name: "Terms"
-          url: "/terms/"
+        - name: "Impressum"
+          url: "/impressum/"
           weight: 1
         - name: "Privacy"
-          url: /privacy/
+          url: "/privacy/"
           weight: 2
 
   de:
@@ -230,9 +242,9 @@ languages:
     title: Cirro Cloud
     params:
       footer:
-        footer_primary_menu_title: Produkt
+        footer_primary_menu_title: ""
         footer_secondary_menu_title: Unternehmen
-        footer_tertiary_menu_title: Unterstützung
+        footer_tertiary_menu_title: Sonstiges
     menu:
       main:
         - name: "Dienstleistungen"
@@ -252,19 +264,45 @@ languages:
           url: /about/
           weight: 4
       footer_primary:
+        - name: ""
+#          url: /services/
+#          weight: 1
+#        - name: "Work"
+#          url: /work/
+#          weight: 2
+      footer_secondary:
+        - name: "Startseite"
+          url: /
+          pageRef: "home"
+          weight: 1
         - name: "Dienstleistungen"
           url: /services/
-          weight: 1
-        - name: "Work"
-          url: /work/
+          pageRef: "services"
           weight: 2
-      footer_tertiary:
-        - name: Kontakt
+        - name: "Team"
+          url: /team/
+          pageRef: "team"
+          weight: 3
+        - name: "Kontakt"
           url: /contact/
-          weight: 10
-          params:
-            external: true
-            button: true
+          pageRef: "contact"
+          weight: 4
+      footer_tertiary:
+        - name: "Datenschutz"
+          url: /privacy/
+          pageRef: "privacy"
+          weight: 1
+        - name: "Impressum"
+          url: /impressum/
+          pageRef: "impressum"
+          weight: 2
+      bottom:
+        - name: "Impressum"
+          url: "/impressum/"
+          weight: 1
+        - name: "Datenschutz"
+          url: "/privacy/"
+          weight: 2
 
 permalinks:
   posts: "blog/:year/:month/:title/"

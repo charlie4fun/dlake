@@ -1,9 +1,9 @@
 ---
 title: 'Contact'
 date: 2018-02-22T17:01:34+07:00
-menu:
-  footer_tertiary:
-    weight: 1
+#menu:
+#  footer_tertiary:
+#    weight: 1
 contact:
   phone: "+61 473XXXXXX"
   email: "example@example.com"

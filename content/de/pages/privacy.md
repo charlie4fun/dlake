@@ -1,8 +1,8 @@
 ---
 title: 'Privacy Policy'
 date: 2024-11-24
-menu:
-  bottom:
+#menu:
+#  bottom:
 ---
 
 # Privacy Policy

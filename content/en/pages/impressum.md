@@ -1,13 +1,12 @@
 ---
-title: 'Terms and Conditions'
-date: 2024-11-24
-#menu:
-#  bottom:
+title: 'Impressum'
+date: 2025-05-30
+url: "impressum"
 ---
 
-# Terms and Conditions
+# Impressum
 
-Last updated: April 07, 2021
+Last updated: May 30, 2025
 
 Please read these terms and conditions carefully before using Our Service.
 
