@@ -5,9 +5,9 @@ date: 2018-02-12T15:37:57+07:00
 header_transparent: false
 summary_type: "framework/summary/summary-team.html"
 
-menu:
-  footer_secondary:
-    weight: 2
+#menu:
+#  footer_secondary:
+#    weight: 2
 
 hero:
   headings:

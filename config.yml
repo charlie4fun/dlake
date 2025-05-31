@@ -9,8 +9,8 @@ pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsUseClasses: true
 metaDataFormat: yaml
-languageCode: en-us
-defaultContentLanguage: en
+languageCode: de-de
+defaultContentLanguage: de
 defaultContentLanguageInSubdir: false
 
 params:
@@ -141,8 +141,8 @@ params:
     enable_menu_footer_secondary: true
     enable_menu_footer_tertiary: true
     footer_primary_menu_title: ""
-    footer_secondary_menu_title: "Company"
-    footer_tertiary_menu_title: "Other"
+    footer_secondary_menu_title: "Unternehmen"
+    footer_tertiary_menu_title: "Sonstiges"
 
   bottom:
     enabled: true
@@ -152,15 +152,21 @@ params:
 
 languages:
   en:
-    weight: 0
+    weight: 1
     languageName: English
     contentDir: content/en
+    title: Cirro Cloud
+    params:
+      footer:
+        footer_primary_menu_title: ""
+        footer_secondary_menu_title: Company
+        footer_tertiary_menu_title: Other
     menu:
       main:
         - name: "Home"
           identifier: home
           url: /
-          pageRef: honme
+          pageRef: home
           weight: 1
         - name: "Services"
           identifier: services
@@ -241,7 +247,7 @@ languages:
           weight: 2
 
   de:
-    weight: 1
+    weight: 0
     languageName: Deutsch
     contentDir: content/de
     title: Cirro Cloud
@@ -252,10 +258,15 @@ languages:
         footer_tertiary_menu_title: Sonstiges
     menu:
       main:
+        - name: "Startseite"
+          identifier: home
+          url: /
+          pageRef: home
+          weight: 1
         - name: "Dienstleistungen"
           identifier: services
           url: /services/
-          weight: 1
+          weight: 2
 #        - name: "Notre Travail"
 #          identifier: work
 #          url: /work/
@@ -264,10 +275,17 @@ languages:
 #          identifier: blog
 #          url: /blog/
 #          weight: 3
-        - name: "Über uns"
-          identifier: about
-          url: /about/
+        - name: "Team"
+          identifier: team
+          url: /team/
+          pageRef: team
           weight: 4
+        - name: "Kontakt"
+          url: /contact/
+          weight: 10
+          params:
+            external: true
+            button: true
       footer_primary:
         - name: ""
 #          url: /services/
