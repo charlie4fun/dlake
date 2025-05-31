@@ -8,13 +8,13 @@ portfolio: ["github"]
 
 thumbnail: "images/photos/projects/project-3-thumbnail.webp"
 
-menu:
-  main:
-    name: "Project 3"
-    weight: 3
-    parent: "work"
-    params:
-      description: "Behaviour principles of ethics in AI"
+#menu:
+#  main:
+#    name: "Project 3"
+#    weight: 3
+#    parent: "work"
+#    params:
+#      description: "Behaviour principles of ethics in AI"
 
 hero:
   headings:

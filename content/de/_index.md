@@ -1,7 +1,7 @@
 ---
-title: "Hugo Advance"
-date: 2019-02-22
-description: "Advance est un thème Hugo premium polyvalent. Design moderne, code épuré et hautement configurable."
+title: "Cirro Cloud"
+date: 2025-05-31
+description: "DE Consulting in information technologies area. Best industrial experience and state-of-the-art solutions at your disposal."
 header_transparent: true
 hero:
   type: hero

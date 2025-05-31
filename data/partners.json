@@ -1,27 +1,27 @@
 [
   {
-    "title": "Netflix",
-    "image": "/images/partners/netflix.svg",
-    "url": "https://www.zerostatic.io"
+    "title": "GfK",
+    "image": "/images/partners/gfk.png",
+    "url": ""
   },
   {
-    "title": "Android",
-    "image": "/images/partners/android.svg",
-    "url": "https://www.zerostatic.io"
+    "title": "Siemens",
+    "image": "/images/partners/siemens.png",
+    "url": ""
   },
   {
-    "title": "Slack",
-    "image": "/images/partners/slack.svg",
-    "url": "https://www.zerostatic.io"
+    "title": "RTL",
+    "image": "/images/partners/rtl.png",
+    "url": ""
   },
   {
-    "title": "Algolia",
-    "image": "/images/partners/algolia.svg",
-    "url": "https://www.zerostatic.io"
+    "title": "SFC",
+    "image": "/images/partners/sfc.png",
+    "url": ""
   },
   {
-    "title": "Github",
-    "image": "/images/partners/github.svg",
-    "url": "https://www.zerostatic.io"
+    "title": "Hays",
+    "image": "/images/partners/hays.png",
+    "url": ""
   }
 ]

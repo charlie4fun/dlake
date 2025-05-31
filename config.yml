@@ -1,5 +1,5 @@
-baseURL: "https://hugo-advance.netlify.app"
-title: Hugo Advance
+baseURL: "https://ci-cloud.de"
+title: Cirro Cloud
 
 pagination:
   pagerSize: 8
@@ -56,13 +56,13 @@ params:
 
   logo:
     logo_text: ""
-    logo_image_desktop: images/logo/logo.svg
-    logo_image_mobile: images/logo/logo-mobile.svg
-    logo_image_desktop_invert: images/logo/logo-invert.svg # used on transparent header and when in dark mode. Normally a white version of the logo.
-    logo_image_mobile_invert: images/logo/logo-invert-mobile.svg # used on transparent header and when in dark mode. Normally a white version of the logo.
-    logo_image_desktop_height: "34px"
-    logo_image_desktop_width: "34px"
-    logo_image_mobile_height: "34px"
+    logo_image_desktop: images/logo/logo.png
+    logo_image_mobile: images/logo/logo-mobile.png
+    logo_image_desktop_invert: images/logo/logo-invert.png # used on transparent header and when in dark mode. Normally a white version of the logo.
+    logo_image_mobile_invert: images/logo/logo-invert-mobile.png # used on transparent header and when in dark mode. Normally a white version of the logo.
+    logo_image_desktop_height: "36px"
+    logo_image_desktop_width: "272px"
+    logo_image_mobile_height: "30px"
     logo_image_mobile_width: "34px"
     show_logo_image_on_mobile: true
     show_logo_image_on_desktop: true
@@ -157,30 +157,35 @@ languages:
     contentDir: content/en
     menu:
       main:
+        - name: "Home"
+          identifier: home
+          url: /
+          pageRef: honme
+          weight: 1
         - name: "Services"
           identifier: services
           url: /services/
           pageRef: services
-          weight: 1
-        - name: "Branding"
-          parent: "services"
-          url: "/services/branding"
-          params:
-            icon: "images/icons/icons8-color-palette-100.png"
-        - name: "Our Work"
-          identifier: work
-          url: /work/
-          pageRef: work
           weight: 2
-        - name: "Blog"
-          identifier: blog
-          url: /blog/
-          pageRef: posts
-          weight: 3
-        - name: "About"
-          identifier: about
-          url: /about/
-          pageRef: about
+#        - name: "Branding"
+#          parent: "services"
+#          url: "/services/branding"
+#          params:
+#            icon: "images/icons/icons8-color-palette-100.png"
+#        - name: "Our Work"
+#          identifier: work
+#          url: /work/
+#          pageRef: work
+#          weight: 2
+#        - name: "Blog"
+#          identifier: blog
+#          url: /blog/
+#          pageRef: posts
+#          weight: 3
+        - name: "Team"
+          identifier: team
+          url: /team/
+          pageRef: team
           weight: 4
         - name: "Contact Us"
           url: /contact/

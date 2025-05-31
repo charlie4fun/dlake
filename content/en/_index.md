@@ -1,7 +1,7 @@
 ---
-title: "Hugo Advance"
-date: 2019-02-22
-description: "Advance is a <strong>multi-purpose premium Hugo theme.</strong> Modern design, clean code and highly configurable."
+title: "Cirro Cloud"
+date: 2025-05-31
+description: "Consulting in information technologies area. Best industrial experience and state-of-the-art solutions at your disposal."
 header_transparent: true
 hero:
   type: hero
@@ -19,8 +19,8 @@ hero:
   fullscreen_mobile: true
   fullscreen_desktop: false
   headings:
-    heading: Hugo Advance
-    sub_heading: Advance is a multi-purpose premium Hugo theme. Modern design, clean code and highly configurable.
+    heading: Cirro Cloud
+    sub_heading: Consulting in information technologies area. Best industrial experience and state-of-the-art solutions at your disposal.
     text: ''
     text_color: "#FFFFFF"
     text_color_dark: "#FFFFFF"
@@ -45,8 +45,8 @@ hero:
       outline: true
       style: "transparent"
     - button:
-      text: "Buy Now"
-      url: "https://www.zerostatic.io/theme/hugo-advance/"
+      text: "Contact Us"
+      url: "contact/"
       external: true
       show_external_icon: true
       fa_icon: false
@@ -61,8 +61,8 @@ intro:
   enabled: true
   align: left
   image: "images/photos/content/content-5.webp"
-  heading: "We Help Business Grow"
-  description: "Our software empowers customers and retailers to work from anywhere in the world, on the go, or at home."
+  heading: "We've helped biggest players to improve their business."
+  description: "Our solutions empower companies all over the world to face the challenges of tomorrow."
   buttons:
     - button:
       text: "View Our Services"
@@ -74,7 +74,7 @@ intro:
   partners:
     enabled: true
 work:
-  enabled: true
+  enabled: false
   label: "Our Portfolio"
   show_view_all: false
   limit: 2
@@ -83,24 +83,24 @@ outro:
   align: center
   image: ""
   heading: Get Started Today
-  description: Save time and money using this premium Hugo theme.
+  description: Let us find a solution for your most complicated request.
   buttons:
     - button:
-      text: "Buy Now"
-      url: "https://www.zerostatic.io/theme/hugo-advance/"
-      external: true
+      text: "Sevices"
+      url: "services/"
+      external: false
       fa_icon: false
       outline: false
       style: ""
     - button:
       text: "Contact Us"
       url: "contact/"
-      external: false
+      external: true
       fa_icon: false
       outline: false
       style: ""
 blog:
-  enabled: true
+  enabled: false
   show_view_all: false
   limit: 3
 ---

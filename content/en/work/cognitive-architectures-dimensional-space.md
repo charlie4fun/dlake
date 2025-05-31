@@ -7,13 +7,13 @@ portfolio: ["research"]
 
 header_transparent: true
 
-menu:
-  main:
-    name: "Project 2"
-    weight: 1
-    parent: "work"
-    params:
-      description: "Cognitive architectures in space"
+#menu:
+#  main:
+#    name: "Project 2"
+#    weight: 1
+#    parent: "work"
+#    params:
+#      description: "Cognitive architectures in space"
       
 thumbnail: "images/photos/projects/project-2-thumbnail.webp"
 

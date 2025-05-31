@@ -7,13 +7,13 @@ portfolio: ["research"]
 
 header_transparent: true
 
-menu:
-  main:
-    name: "Project 1"
-    weight: 1
-    parent: "work"
-    params:
-      description: "AI alignment & advancement"
+#menu:
+#  main:
+#    name: "Project 1"
+#    weight: 1
+#    parent: "work"
+#    params:
+#      description: "AI alignment & advancement"
 
 fa_icon: ""
 image: ""
