@@ -1,7 +1,7 @@
 ---
 title: "Cirro Cloud"
 date: 2025-05-31
-description: "DE Consulting in information technologies area. Best industrial experience and state-of-the-art solutions at your disposal."
+description: "Beratung im Bereich Informationstechnologie. Erstklassige Branchenerfahrung und moderne Lösungen stehen Ihnen zur Verfügung."
 header_transparent: true
 hero:
   type: hero
@@ -19,8 +19,8 @@ hero:
   fullscreen_mobile: true
   fullscreen_desktop: false
   headings:
-    heading: Hugo Advance
-    sub_heading: Advance est un thème Hugo premium polyvalent. Design moderne, code épuré et hautement configurable.
+    heading: Cirro Cloud
+    sub_heading: Beratung im Bereich Informationstechnologie. Erstklassige Branchenerfahrung und moderne Lösungen stehen Ihnen zur Verfügung.
     text: ''
     text_color: "#FFFFFF"
     text_color_dark: "#FFFFFF"
@@ -38,15 +38,15 @@ hero:
     alt: ""
   buttons:
     - button:
-      text: "Learn More"
+      text: "Mehr erfahren"
       url: "services/"
       external: false
       fa_icon: false
       outline: true
       style: "transparent"
     - button:
-      text: "Buy Now"
-      url: "https://www.zerostatic.io/theme/hugo-advance/"
+      text: "Kontaktieren Sie uns"
+      url: "contact/"
       external: true
       show_external_icon: true
       fa_icon: false
@@ -61,12 +61,12 @@ intro:
   enabled: true
   align: left
   image: "images/photos/content/content-5.webp"
-  heading: "We Help Business Grow"
-  description: "Our software empowers customers and retailers to work from anywhere in the world, on the go, or at home."
+  heading: "Wir haben den größten Akteuren geholfen, ihr Geschäft zu optimieren."
+  description: "Unsere Lösungen befähigen Unternehmen, die Herausforderungen von morgen zu meistern."
   buttons:
     - button:
-      text: "View Our Services"
-      url: "https://www.zerostatic.io/docs/hugo-advance/"
+      text: "Unsere Dienstleistungen ansehen"
+      url: "services/"
       external: false
       fa_icon: false
       outline: true
@@ -74,7 +74,7 @@ intro:
   partners:
     enabled: true
 work:
-  enabled: true
+  enabled: false
   label: "Our Portfolio"
   show_view_all: false
   limit: 2
@@ -82,25 +82,25 @@ outro:
   enabled: true
   align: center
   image: ""
-  heading: Get Started Today
-  description: Save time and money using this premium Hugo theme.
+  heading: Starten Sie noch heute
+  description: Lassen Sie uns eine Lösung für Ihre komplexeste Anfrage finden.
   buttons:
     - button:
-      text: "Buy Now"
-      url: "https://www.zerostatic.io/theme/hugo-advance/"
+      text: "Dienstleistungen"
+      url: "services/"
       external: true
       fa_icon: false
       outline: false
       style: ""
     - button:
-      text: "Contact Us"
+      text: "Kontaktieren Sie uns"
       url: "contact/"
       external: false
       fa_icon: false
       outline: false
       style: ""
 blog:
-  enabled: true
+  enabled: false
   show_view_all: false
   limit: 3
 ---

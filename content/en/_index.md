@@ -62,11 +62,11 @@ intro:
   align: left
   image: "images/photos/content/content-5.webp"
   heading: "We've helped biggest players to improve their business."
-  description: "Our solutions empower companies all over the world to face the challenges of tomorrow."
+  description: "Our solutions empower companies to face the challenges of tomorrow."
   buttons:
     - button:
       text: "View Our Services"
-      url: "https://www.zerostatic.io/docs/hugo-advance/"
+      url: "services/"
       external: false
       fa_icon: false
       outline: true
