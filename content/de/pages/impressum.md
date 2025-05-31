@@ -16,4 +16,4 @@ Ilya Isakov
 
 USt-IdNr. gemäß § 27a Umsatzsteuergesetz: DE361130024
 
-Commercial Register: Amtsgericht Charlottenburg - HRB 252553
+Handelsregister: Amtsgericht Charlottenburg - HRB 252553
