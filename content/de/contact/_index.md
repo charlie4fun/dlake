@@ -1,27 +1,24 @@
 ---
-title: 'Contact'
-date: 2018-02-22T17:01:34+07:00
+title: 'Kontact'
+date: 2025-05-31
 #menu:
 #  footer_tertiary:
 #    weight: 1
 contact:
-  phone: "+61 473XXXXXX"
-  email: "example@example.com"
-  address: "64 Adelaide St, Brisbane City QLD 4000"
-  google_map_text_link: https://maps.app.goo.gl/RbWWV8UAZdwAoC9u7
+  form_heading: "Anfrage senden"
+#  phone: "+61 473XXXXXX"
+  email: "customer@ci-cloud.de"
+  address: "Schivelbeiner Str. 45, 10435 Berlin"
+  google_map_text_link: https://maps.app.goo.gl/ygbjgsvjk28ANioc8
+  button_text: "Absenden"
+  
 locations:
-  - title: Brisbane Office
-    phone: "+61 473XXXXXX"
-    email: info@example.com
-    address: "64 Adelaide St, Brisbane City QLD 4000"
-    google_map_text_link: https://maps.app.goo.gl/RbWWV8UAZdwAoC9u7
-    google_map_embed_link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5012.448195742425!2d153.02127034605678!3d-27.470490595106128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9159ed38eb42d7%3A0x81e26c2a81aec5e7!2sBrisbane%20City%20Hall!5e0!3m2!1sen!2sau!4v1699856073431!5m2!1sen!2sau"
-  - title: San Francisco Office
-    address: "1 Market St, San Francisco, CA 94105, USA"
-    phone: "+1 4157XXXXXX"
-    email: sf@example.com
-    google_map_text_link: https://maps.app.goo.gl/xGbCinVdiZ3g36rJ9
-    google_map_embed_link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.8314341661194!2d-122.40001780569087!3d37.793989999734706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580641dac7091%3A0x5df92387414160b0!2s1%20Market%20St%2C%20San%20Francisco%2C%20CA%2094105%2C%20USA!5e0!3m2!1sen!2sau!4v1699855902907!5m2!1sen!2sau"
+  - title: Berline Office
+#    phone: "+61 473XXXXXX"
+    email: customer@ci-cloud.de
+    address: "Schivelbeiner Str. 45, 10435 Berlin"
+    google_map_text_link: https://maps.app.goo.gl/ygbjgsvjk28ANioc8
+    google_map_embed_link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.053060943911!2d13.411995200000002!3d52.55056510000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xaf1c7a77f97a70e9%3A0x3109ca3895374a6a!2sCirro%20Cloud%20GmbH!5e0!3m2!1sen!2sde!4v1748772643407!5m2!1sen!2sde"
 ---
 
-We are a team of creative professionals and web developers servicing clients worldwide. We offer a free consultation for all new clients.
+Wir sind ein Team kreativer Fachleute und Ingenieure, das Kunden in ganz Europa betreut. Für alle neuen Kunden bieten wir eine kostenlose Erstberatung an.
