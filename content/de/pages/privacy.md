@@ -1,19 +1,20 @@
 ---
-title: 'Privacy Policy'
-date: 2024-11-24
+title: 'Datenschutzerklärung'
+date: 2025-05-31
+url: "privacy"
 #menu:
 #  bottom:
 ---
 
-## General
-We have done our best to create a simple, transparent privacy policy. **Our aim is to collect and store as little data as possible.**
+## Allgemeines
+Wir haben unser Bestes getan, um eine einfache und transparente Datenschutzerklärung zu erstellen. **Unser Ziel ist es, so wenig Daten wie möglich zu erheben und zu speichern.**
 
-This Privacy Policy outlines how we collect, process, store, and protect any personal information you share with us while using our website (ci-cloud.de, hereinafter referred to as "website"), in full compliance with the General Data Protection Regulation (GDPR), the German Federal Data Protection Act (BDSG), the Telecommunication Digital Services Data Protection Act (TDDDG) and other applicable German data protection laws.
+Diese Datenschutzerklärung erläutert, wie wir personenbezogene Daten erheben, verarbeiten, speichern und schützen, die Sie uns beim Besuch unserer Website (ci-cloud.de, nachfolgend „Website“ genannt) zur Verfügung stellen – in voller Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO), dem Bundesdatenschutzgesetz (BDSG), dem Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG) sowie weiteren anwendbaren deutschen Datenschutzgesetzen.
 
-This site is statically generated and served as HTML. Fundamentally this means there is very little surface area for this site to be hacked or compromised. It does not require a database or backend server to process and render documents. Technically there is still a webserver, but it serves pre-rendered documents generated at build time.
+Diese Website wird statisch generiert und als HTML bereitgestellt. Das bedeutet grundsätzlich, dass es nur eine sehr geringe Angriffsfläche für Hacks oder Sicherheitsverletzungen gibt. Es wird weder eine Datenbank noch ein Backend-Server benötigt, um Inhalte zu verarbeiten oder darzustellen. Technisch gesehen gibt es zwar einen Webserver, dieser liefert jedoch lediglich vorab gerenderte Dokumente aus, die zur Build-Zeit erstellt wurden.
 
-### Definitions
-Our privacy policy should be simple and easy to understand for everyone. In this data protection declaration, the official terms of the General Data Protection Regulation (GDPR) are generally used. The official definitions are explained in Art. 4 GDPR.
+### Begriffsbestimmungen
+Unsere Datenschutzerklärung soll für alle Nutzer leicht verständlich sein. In dieser Datenschutzerklärung werden in der Regel die offiziellen Begriffe der Datenschutz-Grundverordnung (DSGVO) verwendet. Die offiziellen Definitionen sind in Art. 4 DSGVO erläutert.
 
 ---
 
@@ -91,6 +92,7 @@ Barrow St, 4 Dublin, Ireland
 Tel.: +353 1 543 1000
 Fax: +353 1 686 5660
 https://www.google.com/
+Privacy policy: https://policies.google.com/privacy?hl=en&gl=en
 
 ### Google Tag Manager
 We use the service on our website.
@@ -105,8 +107,25 @@ Irland
 Tel. +353 1 543 1000
 Fax +353 1 686 5660
 https://www.google.com/
+Privacy policy: https://policies.google.com/privacy?hl=en&gl=en
 
-https://policies.google.com/privacy?hl=en&gl=en
+### Microsoft Clarity
+We use this service on our website.
+The service enables us to better understand how users interact with our website through features like session recordings, heatmaps, and behavioral analytics. This helps us identify usability issues, optimize user experience, and improve the overall functionality of our site.
+Clarity uses cookies and other tracking technologies to collect data such as mouse movements, clicks, scrolls, and interactions with page elements. The data collected is anonymous and does not include any personally identifiable information. Clarity also automatically masks sensitive content, such as form fields, to ensure user privacy.
+When you visit our website, Clarity may store a cookie on your device. This cookie is used solely for analytical purposes and does not personally identify you. It allows us to see aggregated data and analyze how different user groups interact with the website.
+By using Clarity, your browser automatically connects to Microsoft servers. We have no control over the extent or specific use of the data collected by Microsoft. To our knowledge, Microsoft may receive information that you have accessed our website. If you have a Microsoft account and are logged in, Microsoft may be able to associate your visit with your account. Even without logging in, Microsoft may still collect and store certain technical data such as your IP address or device characteristics.
+We use this service for usability analysis and optimization purposes, particularly to enhance the user experience, fix navigation problems, and ensure that our website functions as intended.
+Legal basis: Art. 6 (1) sentence 1 lit. a) GDPR (consent).
+
+Provider:
+Microsoft Corporation
+One Microsoft Way
+Redmond, WA 98052-6399
+USA
+Tel.: +1 425-882-8080
+https://clarity.microsoft.com/
+Privacy policy: https://privacy.microsoft.com/en-us/privacystatement
 
 ---
 
@@ -148,17 +167,18 @@ At this point, we would like to draw your attention once again to your right to 
 We would also like to draw your attention to your rights under Sections 32 et seq. BDSG, which, however, are largely congruent with the rights just described.
 - **Right to lodge a complaint pursuant to Art. 77 GDPR:** You also have the right to lodge a complaint with a data protection supervisory authority if you believe that the processing of your personal data violates this regulation.
 
-## Security
-We take reasonable measures to help protect your personal data from loss, theft, misuse, and unauthorized access, disclosure, alteration, and destruction.
+## Sicherheit
+Wir ergreifen angemessene Maßnahmen, um Ihre personenbezogenen Daten vor Verlust, Diebstahl, Missbrauch sowie unbefugtem Zugriff, Offenlegung, Veränderung und Zerstörung zu schützen.
 
-## Information for Minors
-Our Services are not intended for individuals under the age of 18. We do not intentionally gather Personal Data from such individuals. If you become aware that a minor has provided us with Personal Data, please notify us.
+## Informationen für Minderjährige
+Unsere Dienste richten sich nicht an Personen unter 18 Jahren. Wir erfassen nicht wissentlich personenbezogene Daten von solchen Personen. Falls Sie Kenntnis darüber erlangen, dass ein Minderjähriger uns personenbezogene Daten übermittelt hat, bitten wir um eine Benachrichtigung.
 
-## Changes to This Privacy Policy
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. 
-Status of this data protection declaration: 31/may/2025
+## Änderungen dieser Datenschutzerklärung
+Wir behalten uns vor, diese Datenschutzerklärung gelegentlich zu aktualisieren. Über Änderungen informieren wir Sie, indem wir die neue Datenschutzerklärung auf dieser Seite veröffentlichen.
+Stand dieser Datenschutzerklärung: 31. Mai 2025
 
 ---
 
-## Contact Us
-If you have any questions about this Privacy Policy, You can contact us: info[at]dlake[dot]de
+## Kontakt
+
+Wenn Sie Fragen zu dieser Datenschutzerklärung haben, können Sie uns wie folgt kontaktieren: info[at]dlake[dot]de

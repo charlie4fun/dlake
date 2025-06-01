@@ -1,6 +1,6 @@
 ---
 title: 'Privacy Policy'
-date: 2024-11-24
+date: 2025-05-31
 url: "privacy"
 ---
 
@@ -90,6 +90,7 @@ Barrow St, 4 Dublin, Ireland
 Tel.: +353 1 543 1000
 Fax: +353 1 686 5660
 https://www.google.com/
+Privacy policy: https://policies.google.com/privacy?hl=en&gl=en
 
 ### Google Tag Manager
 We use the service on our website.
@@ -104,8 +105,25 @@ Irland
 Tel. +353 1 543 1000
 Fax +353 1 686 5660
 https://www.google.com/
+Privacy policy: https://policies.google.com/privacy?hl=en&gl=en
 
-https://policies.google.com/privacy?hl=en&gl=en
+### Microsoft Clarity
+We use this service on our website.
+The service enables us to better understand how users interact with our website through features like session recordings, heatmaps, and behavioral analytics. This helps us identify usability issues, optimize user experience, and improve the overall functionality of our site.
+Clarity uses cookies and other tracking technologies to collect data such as mouse movements, clicks, scrolls, and interactions with page elements. The data collected is anonymous and does not include any personally identifiable information. Clarity also automatically masks sensitive content, such as form fields, to ensure user privacy.
+When you visit our website, Clarity may store a cookie on your device. This cookie is used solely for analytical purposes and does not personally identify you. It allows us to see aggregated data and analyze how different user groups interact with the website.
+By using Clarity, your browser automatically connects to Microsoft servers. We have no control over the extent or specific use of the data collected by Microsoft. To our knowledge, Microsoft may receive information that you have accessed our website. If you have a Microsoft account and are logged in, Microsoft may be able to associate your visit with your account. Even without logging in, Microsoft may still collect and store certain technical data such as your IP address or device characteristics.
+We use this service for usability analysis and optimization purposes, particularly to enhance the user experience, fix navigation problems, and ensure that our website functions as intended.
+Legal basis: Art. 6 (1) sentence 1 lit. a) GDPR (consent).
+
+Provider:
+Microsoft Corporation
+One Microsoft Way
+Redmond, WA 98052-6399
+USA
+Tel.: +1 425-882-8080
+https://clarity.microsoft.com/
+Privacy policy: https://privacy.microsoft.com/en-us/privacystatement
 
 ---
 
