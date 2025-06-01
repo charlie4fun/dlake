@@ -4,8 +4,6 @@
 
 {{ define "main" }}
 
-    {{ partial "floating-icon.html" . }}
-
     {{ if .Params.hero }}
         <div class="section pt-0 pb-0">
             {{ partial "framework/sections/hero/hero.html" (dict "context" $ "hero" .Params.hero) }}
@@ -129,4 +127,3 @@
     {{ end }}
 
 {{ end }}
-
