@@ -44,14 +44,6 @@ hero:
       fa_icon: false
       outline: true
       style: "transparent"
-    - button:
-      text: "Kontaktieren Sie uns"
-      url: "contact/"
-      external: true
-      show_external_icon: true
-      fa_icon: false
-      outline: true
-      style: "transparent"
 services:
   enabled: true
   show_view_all: true
@@ -85,13 +77,6 @@ outro:
   heading: Starten Sie noch heute
   description: Lassen Sie uns eine Lösung für Ihre komplexeste Anfrage finden.
   buttons:
-    - button:
-      text: "Dienstleistungen"
-      url: "services/"
-      external: true
-      fa_icon: false
-      outline: false
-      style: ""
     - button:
       text: "Kontaktieren Sie uns"
       url: "contact/"

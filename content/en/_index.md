@@ -44,14 +44,6 @@ hero:
       fa_icon: false
       outline: true
       style: "transparent"
-    - button:
-      text: "Contact Us"
-      url: "contact/"
-      external: true
-      show_external_icon: true
-      fa_icon: false
-      outline: true
-      style: "transparent"
 services:
   enabled: true
   show_view_all: true
@@ -85,13 +77,6 @@ outro:
   heading: Get Started Today
   description: Let us find a solution for your most complicated request.
   buttons:
-    - button:
-      text: "Sevices"
-      url: "services/"
-      external: false
-      fa_icon: false
-      outline: false
-      style: ""
     - button:
       text: "Contact Us"
       url: "contact/"

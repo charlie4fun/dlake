@@ -13,5 +13,10 @@
     "title": "Email",
     "fa_icon": "fas fa-square-envelope",
     "url": "mailto:customer@ci-cloud.de"
+  },
+  {
+    "title": "Rate us on Google Maps",
+    "fa_icon": "fas fa-square-plus",
+    "url": "https://maps.app.goo.gl/ygbjgsvjk28ANioc8"
   }
 ]

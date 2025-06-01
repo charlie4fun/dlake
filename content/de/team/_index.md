@@ -1,7 +1,7 @@
 ---
 title: 'Team'
-description: 'We deliver a complete range of digital services.'
-date: 2018-02-12T15:37:57+07:00
+description: 'Wir bieten ein umfassendes Spektrum an IT-Dienstleistungen.'
+date: 2025-05-31
 header_transparent: false
 summary_type: "framework/summary/summary-team.html"
 
@@ -11,7 +11,7 @@ summary_type: "framework/summary/summary-team.html"
 
 hero:
   headings:
-    heading: "Meet The Team"
+    heading: "Lernen Sie unser Team kennen"
   background:
     background_image: "images/photos/home/team-large.webp"
     background_image_blend_mode: "overlay"

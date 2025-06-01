@@ -1,10 +1,8 @@
 ---
 title: 'Team'
-description: 'We deliver a complete range of digital services.'
-date: 2018-02-12T15:37:57+07:00
-
-header_transparent: true
-
+description: 'We deliver a complete range of IT services.'
+date: 2025-05-31
+header_transparent: false
 summary_type: "framework/summary/summary-team.html"
 
 hero:
