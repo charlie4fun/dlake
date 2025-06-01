@@ -2,13 +2,13 @@
 title: "Software Engineering"
 description: "Building complex web applications and system software."
 date: 2019-10-03
-weight: 2
+weight: 8
 
 header_transparent: true
 
 menu:
   main:
-    weight: 2
+    weight: 8
     parent: "services"
     params:
       icon: "images/icons/icons8-merge-git-100.png"

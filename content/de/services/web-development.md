@@ -8,7 +8,7 @@ header_transparent: true
 
 menu:
   main:
-    weight: 1
+    weight: 7
     parent: "services"
     params:
       icon: "images/icons/icons8-source-code-100.png"

@@ -2,13 +2,13 @@
 title: "Web Development"
 description: "Our experienced software engineers develop websites and desktop applications"
 date: 2018-11-28T15:14:54+10:00
-weight: 1
+weight: 7
 
 header_transparent: true
 
 menu:
   main:
-    weight: 1
+    weight: 7
     parent: "services"
     params:
       icon: "images/icons/icons8-source-code-100.png"

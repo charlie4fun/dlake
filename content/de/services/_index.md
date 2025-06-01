@@ -1,20 +1,27 @@
 ---
-title: "Services"
-description: "We deliver a complete range of digital services."
-date: 2018-02-10T11:52:18+07:00
+title: "Dienstleistungen"
+description: "Wir bieten ein umfassendes Spektrum an IT-Dienstleistungen."
+date: 2025-04-01
 
 header_transparent: true
 
 hero:
   headings:
-    heading: "Services"
-    sub_heading: "We deliver a complete range of digital services."
+    heading: "Dienstleistungen"
+    sub_heading: "Wir bieten ein umfassendes Spektrum an IT-Dienstleistungen."
   background:
     background_image: "images/photos/home/services-large.webp"
     background_image_blend_mode: "overlay"
     background_gradient: true
 ---
 
-# We create brands and engage audiences.
+# Umfassende IT-Expertise zu Ihrer Verfügung
 
-Incubator niche market launch party return on investment alpha ramen startup iteration business-to-consumer MVP influencer vesting period crowdsource leverage. Beta alpha technology metrics backing paradigm shift startup.
+Lassen Sie uns gemeinsam herausfinden, wie wir Ihr Unternehmen unterstützen können. Unsere Schwerpunkte liegen in:
+
+- IT-Managementberatung
+- Softwareentwicklung
+- DevOps & Data Engineering
+- Vermittlung von IT-Freelancern
+
+Wir freuen uns auf das Gespräch mit Ihnen!
