@@ -31,6 +31,8 @@ hero:
 ## Benefits of Interim DevOps
 Our DevOps experts provide flexible, efficient, and legally compliant support to optimize your IT infrastructure or strengthen your development team – exactly when you need it.
 
+#### <i class="fas fa-check mr-1 primary-color"></i> Payment Only After Successful Delivery
+You only pay once the agreed service has been delivered – transparent, fair, and with no upfront costs.
 #### <i class="fas fa-check mr-1 primary-color"></i> Optimize Your Infrastructure Efficiently
 Enhance your infrastructure and software development with modern DevOps practices – for greater efficiency, automation, and scalability, even in cloud environments.
 #### <i class="fas fa-check mr-1 primary-color"></i> Reinforcement for Your Team

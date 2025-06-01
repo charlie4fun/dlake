@@ -21,7 +21,7 @@ icon: "images/icons/icons8-cloud-100.png"
 hero:
   headings:
     heading: "DevOps-Beratungs- und Unterstützungsdienstleistungen"
-    sub_heading: "Interim DevOps-Experten für Ihre Cloud: DevOps Consulting für mehr Agilität & Effizienz – mit erfahrenen Contractors auf freiberuflicher Basis."
+    sub_heading: "Skalieren Sie schneller mit erfahrenen DevOps-Contractors."
   background:
     background_image: "images/photos/services/consulting-large.webp"
     background_image_blend_mode: "overlay"
@@ -31,6 +31,8 @@ hero:
 ## Vorteile von Interim DevOps
 Unsere DevOps-Experten bieten flexible, effiziente und rechtssichere Unterstützung für die Optimierung Ihrer IT-Infrastruktur oder die Verstärkung Ihres Entwicklungsteams – genau dann, wenn Sie sie es brauchen.
 
+#### <i class="fas fa-check mr-1 primary-color"></i> Zahlung erst nach erfolgreicher Leistung
+Sie zahlen nur, wenn die vereinbarte Leistung erbracht wurde – transparent, fair und ohne Vorauszahlung.
 #### <i class="fas fa-check mr-1 primary-color"></i> Infrastruktur effizient optimieren
 Optimieren Sie Ihre Infrastruktur und Ihre Softwareentwicklung mit modernen DevOps Practices – für mehr Effizienz, Automatisierung und Skalierbarkeit, auch in Cloud-Umgebungen. 
 #### <i class="fas fa-check mr-1 primary-color"></i> Verstärkung für Ihr Team
