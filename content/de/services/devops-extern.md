@@ -6,6 +6,13 @@ weight: 1
 
 header_transparent: true
 
+meta: 
+  title: "DevOps-Beratungs- und Unterstützungsdienstleistungen"
+  description: "DevOps-Experten Unterstützung für die Optimierung Ihrer IT-Infrastruktur oder die Verstärkung Ihres Entwicklungsteams"
+  og_title: "DevOps-Experten Unterstützung. IT-Infrastruktur Optimierung"
+  og_image: "images/photos/services/consulting-large.webp"
+  og_description: "Interim DevOps-Experten für Sie: DevOps Consulting für mehr Agilität & Effizienz – mit erfahrenen Contractors auf freiberuflicher Basis."
+
 menu:
   main:
     name: "Interim DevOps"
