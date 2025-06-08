@@ -2,7 +2,7 @@
 
 {{ if .Site.Params.cookie_banner.enabled }}
 <link rel="stylesheet" href="{{ "css/cookieconsent.css" | relURL }}">
-{{ $cookieConsent := resources.Get "js/framework/cookieconsent-3.js" }}
+{{ $cookieConsent := resources.Get "js/framework/cookieconsent.js" }}
 {{ $cookieConsentModeBundle := slice $cookieConsent | resources.Concat "js/cookieConsentModeBundle.js" }}
 <script type="text/javascript" src="{{ ($cookieConsentModeBundle | fingerprint).RelPermalink }}"></script>
 
