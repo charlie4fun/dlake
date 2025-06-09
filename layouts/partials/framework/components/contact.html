@@ -10,6 +10,12 @@
       <strong>Phone:</strong>
       {{ .contact.phone }}</div>
   {{ end }}
+  {{ if .contact.calendly }}
+    <div class="contact-email">
+      <strong>Schedule a call:</strong>
+      <a href="{{ .contact.calendly }}">{{ .contact.calendly }}</a>
+    </div>
+  {{ end }}
   {{ if .contact.address }}
     <div class="contact-address">
       <strong>Address:</strong>

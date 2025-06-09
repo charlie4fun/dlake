@@ -7,6 +7,7 @@ contact:
 #  phone: "+61 473XXXXXX"
   email: "customer@ci-cloud.de"
   address: "Schivelbeiner Str. 45, 10435 Berlin"
+  calendly: https://calendly.com/customer-ci-cloud/cirro-cloud-consulting
   google_map_text_link: https://maps.app.goo.gl/ygbjgsvjk28ANioc8
   button_text: "Submit"
 
