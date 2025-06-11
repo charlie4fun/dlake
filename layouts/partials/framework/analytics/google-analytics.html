@@ -5,8 +5,14 @@
   {{ $env_google_analytics_id := (getenv "HUGO_GOOGLE_ANALYTICS_ID") }}
 
     {{ if $env_google_analytics_id }}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{$env_google_analytics_id}}" {{ if .Site.Params.cookie_banner.enabled }}{{ $cookie_banner_data }}{{ end }}></script>
-      <script {{ if .Site.Params.cookie_banner.enabled }}{{ $cookie_banner_data }}{{ end }}>
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{$env_google_analytics_id}}" 
+      type="text/plain"
+      data-cookiecategory="analytics" 
+      {{ if .Site.Params.cookie_banner.enabled }}{{ $cookie_banner_data }}{{ end }}></script>
+      <script {{ if .Site.Params.cookie_banner.enabled }}{{ $cookie_banner_data }}{{ end }}
+      type="text/plain"
+      data-cookiecategory="analytics" 
+      >
         window.dataLayer = window.dataLayer || [];
         function gtag() {
           dataLayer.push(arguments);
@@ -15,8 +21,15 @@
         gtag('config', '{{$env_google_analytics_id}}');
       </script>
     {{ else if .Site.Params.analytics.google_analytics_id }}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{.Site.Params.analytics.google_analytics_id}}" {{ if .Site.Params.cookie_banner.enabled }}{{ $cookie_banner_data }}{{ end }}></script>
-      <script {{ if .Site.Params.cookie_banner.enabled }}{{ $cookie_banner_data }}{{ end }}>
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{.Site.Params.analytics.google_analytics_id}}" {{ if .Site.Params.cookie_banner.enabled }}{{ $cookie_banner_data }}{{ end }}
+      type="text/plain"
+      data-cookiecategory="analytics" 
+      >
+    </script>
+      <script {{ if .Site.Params.cookie_banner.enabled }}{{ $cookie_banner_data }}{{ end }}
+      type="text/plain"
+      data-cookiecategory="analytics" 
+      >
         window.dataLayer = window.dataLayer || [];
         function gtag() {dataLayer.push(arguments);}
         gtag('js', new Date());

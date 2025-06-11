@@ -1,7 +1,7 @@
 <!-- https://github.com/orestbida/cookieconsent -->
 
 {{ if .Site.Params.cookie_banner.enabled }}
-<link rel="stylesheet" href="{{ "css/cookieconsent.css" | relLangURL }}">
+<link rel="stylesheet" href="{{ "css/cookieconsent.css" | relURL }}">
 {{ $cookieConsent := resources.Get "js/framework/cookieconsent.js" }}
 {{ $cookieConsentModeBundle := slice $cookieConsent | resources.Concat "js/cookieConsentModeBundle.js" }}
 <script type="text/javascript" src="{{ ($cookieConsentModeBundle | fingerprint).RelPermalink }}"></script>
@@ -15,7 +15,7 @@
 
         // run plugin with your configuration
         cc.run({
-            current_lang: 'en',
+            current_lang: '{{ .Site.Language.Lang }}', //'de',
             autoclear_cookies: true,                   // default: false
             page_scripts: true,                        // default: false
 
@@ -30,7 +30,7 @@
             // cookie_expiration: 182,                 // default: 182 (days)
             // cookie_necessary_only_expiration: 182   // default: disabled
             // cookie_domain: location.hostname,       // default: current domain
-            // cookie_path: '/',                       // default: root
+            cookie_path: '/',                       // default: root
             // cookie_same_site: 'Lax',                // default: 'Lax'
             // use_rfc_cookie: false,                  // default: false
             // revision: 0,                            // default: 0
@@ -53,7 +53,78 @@
             }, 
 
             languages: {
-                'en': {
+                'de': {
+                    consent_modal: {
+                        title: 'Wir verwenden Cookies!',
+                        description: 'Hallo, diese Website verwendet essentielle Cookies, um ihren ordnungsgemäßen Betrieb zu gewährleisten und Tracking-Cookies, um zu verstehen, wie Sie mit ihr interagieren. Letztere werden erst nach Ihrer Zustimmung gesetzt. <button type="button" data-cc="c-settings" class="cc-link">Lass mich wählen</button>',
+                        primary_btn: {
+                            text: 'Alle akzeptieren',
+                            role: 'accept_all'              // 'accept_selected' or 'accept_all'
+                        },
+                        secondary_btn: {
+                            text: 'Nur notwendige',
+                            role: 'accept_necessary'        // 'settings' or 'accept_necessary'
+                        }
+                    },
+                    settings_modal: {
+                        title: 'Cookie Einstellungen',
+                        save_settings_btn: 'Save settings',
+                        accept_all_btn: 'Alle akzeptieren',
+                        reject_all_btn: 'Alle ablehnen',
+                        close_btn_label: 'Schließen',
+                        // cookie_table_caption: 'Cookie list',
+                        cookie_table_headers: [
+                            { col1: 'Name' },
+                            { col2: 'Domain' },
+                            { col3: 'Expiration' },
+                            { col4: 'Description' }
+                        ],
+                        blocks: [
+                            {
+                                title: 'Verwendung von Cookies 📢',
+                                description: 'Ich verwende Cookies, um die Grundfunktionen der Website zu gewährleisten und Ihr Online-Erlebnis zu verbessern. Sie können für jede Kategorie jederzeit die Zustimmung/Abmeldung aktivieren. Weitere Informationen zu Cookies und anderen sensiblen Daten finden Sie in der vollständigen <a href="/privacy/" class="cc-link">prDatenschutzrichtlinie</a>.'
+                            }, 
+                            {
+                                title: 'Unbedingt erforderliche Cookies',
+                                description: 'Diese Cookies sind für das ordnungsgemäße Funktionieren meiner Website unerlässlich. Ohne diese Cookies würde die Website nicht richtig funktionieren',
+                                toggle: {
+                                    value: 'necessary',
+                                    enabled: true,
+                                    readonly: true          // cookie categories with readonly=true are all treated as "necessary cookies"
+                                }
+                            }, 
+                            {
+                                title: 'Leistungs- und Analyse-Cookies',
+                                description: 'Diese Cookies ermöglichen es der Website, sich an die Entscheidungen zu erinnern, die Sie in der Vergangenheit getroffen haben.',
+                                toggle: {
+                                    value: 'analytics',     // your cookie category
+                                    enabled: false,
+                                    readonly: false
+                                },
+                                cookie_table: [             // list of all expected cookies
+                                    {
+                                        col1: '^_ga',       // match all cookies starting with "_ga"
+                                        col2: 'google.com',
+                                        col3: '2 years',
+                                        col4: 'description ...',
+                                        is_regex: true
+                                    },
+                                    {
+                                        col1: '_gid',
+                                        col2: 'google.com',
+                                        col3: '1 day',
+                                        col4: 'description ...',
+                                    }
+                                ]
+                            },
+                            {
+                                title: 'Weitere Informationen',
+                                description: 'Bei Fragen zu unserer Cookie-Richtlinie und Ihren Auswahlmöglichkeiten wenden Sie sich bitte an <a class="cc-link" href="{{ "/contact/" | relURL }}">Kontaktieren Sie uns</a>.',
+                            }
+                        ]
+                    }
+                },
+                 'en': {
                     consent_modal: {
                         title: 'We use cookies!',
                         description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
@@ -82,7 +153,7 @@
                         blocks: [
                             {
                                 title: 'Cookie usage 📢',
-                                description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="#" class="cc-link">privacy policy</a>.'
+                                description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="/en/privacy/" class="cc-link">privacy policy</a>.'
                             }, {
                                 title: 'Strictly necessary cookies',
                                 description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
@@ -117,7 +188,7 @@
                             },
                             {
                                 title: 'More information',
-                                description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="#yourcontactpage">contact us</a>.',
+                                description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="{{ "/contact/" | relURL }}">contact us</a>.',
                             }
                         ]
                     }
