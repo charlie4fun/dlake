@@ -5,7 +5,9 @@
 {{ define "main" }}
 
     {{ if .Params.hero }}
-        {{ partial "framework/sections/hero/hero.html" (dict "context" $ "hero" .Params.hero) }}
+        <div class="section pt-0 pb-0">
+            {{ partial "framework/sections/hero/hero.html" (dict "context" $ "hero" .Params.hero) }}
+        </div>
     {{ else }}
         <div class="section">
             <div class="container">
