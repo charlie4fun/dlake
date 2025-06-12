@@ -1,5 +1,5 @@
 ---
-title: "Dienstleistungen"
+title: "Leistungen"
 description: "Wir bieten ein umfassendes Spektrum an IT-Dienstleistungen."
 date: 2025-04-01
 
