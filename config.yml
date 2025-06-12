@@ -83,10 +83,10 @@ params:
     og_twitter_creator: ""
 
   dark_mode:
-    enable_dark_mode: true
+    enable_dark_mode: false
     show_dark_mode_toggle_in_header: false
-    show_dark_mode_toggle_in_bottom: true
-    show_dark_mode_toggle_in_mobile_menu: true
+    show_dark_mode_toggle_in_bottom: false
+    show_dark_mode_toggle_in_mobile_menu: false
 
   cookie_banner:
     enabled: true
@@ -94,8 +94,8 @@ params:
 
   analytics:
     disable_analytics_on_localhost: false # prevents polluting analytics data while developing but enabling can be useful
-    google_analytics_id: "G-08T34RNKQB" # G-XXXXXXXXXX
-    gtm_id: "GTM-WBF27J36" # GTM-XXXXXXXX
+    google_analytics_id: "" # G-XXXXXXXXXX
+    gtm_id: "" # GTM-XXXXXXXX
     plausible_data_domain: "" # mywebsite.com
     plausible_script_url: "" # if you use a self-hosted plausible enter the url
     umami_data_website_id: "" # ddd14336-5fb0-4cdd-8f32-e1bfa906cc2b
@@ -127,7 +127,7 @@ params:
     show_social_media_in_mobile_menu: true
 
   footer:
-    enable_footer: true
+    enable_footer: false
     enable_footer_info: true # will show the section with the logo, title and description.
     footer_title: ""
     footer_logo: ""
@@ -137,18 +137,18 @@ params:
     enable_social_media_links: true
     enable_languages: true
     enable_copyright: false
-    enable_menu_footer_primary: true
-    enable_menu_footer_secondary: true
-    enable_menu_footer_tertiary: true
-    footer_primary_menu_title: ""
-    footer_secondary_menu_title: "Unternehmen"
-    footer_tertiary_menu_title: "Sonstiges"
+    enable_menu_footer_primary: false
+    enable_menu_footer_secondary: false
+    enable_menu_footer_tertiary: false
+#    footer_primary_menu_title: ""
+#    footer_secondary_menu_title: "Unternehmen"
+#    footer_tertiary_menu_title: "Sonstiges"
 
   bottom:
     enabled: true
     enable_bottom_menu: true
     copyright_text: "© 2025 Cirro Cloud GmbH"
-    show_rss_icon: true
+    show_rss_icon: false
 
 languages:
   en:
@@ -156,23 +156,23 @@ languages:
     languageName: English
     contentDir: content/en
     title: Cirro Cloud
-    params:
-      footer:
-        footer_primary_menu_title: ""
-        footer_secondary_menu_title: Company
-        footer_tertiary_menu_title: Other
+#    params:
+#      footer:
+#        footer_primary_menu_title: ""
+#        footer_secondary_menu_title: Company
+#        footer_tertiary_menu_title: Other
     menu:
       main:
-        - name: "Home"
-          identifier: home
-          url: /
-          pageRef: home
-          weight: 1
-        - name: "Services"
-          identifier: services
-          url: /services/
-          pageRef: services
-          weight: 2
+        - name: ""
+#          identifier: home
+#          url: /
+#          pageRef: home
+#          weight: 1
+#        - name: "Services"
+#          identifier: services
+#          url: /services/
+#          pageRef: services
+#          weight: 2
 #        - name: "Branding"
 #          parent: "services"
 #          url: "/services/branding"
@@ -188,17 +188,17 @@ languages:
 #          url: /blog/
 #          pageRef: posts
 #          weight: 3
-        - name: "Team"
-          identifier: team
-          url: /team/
-          pageRef: team
-          weight: 4
-        - name: "Contact Us"
-          url: /contact/
-          weight: 10
-          params:
-            external: true
-            button: true
+#        - name: "Team"
+#          identifier: team
+#          url: /team/
+#          pageRef: team
+#          weight: 4
+#        - name: "Contact Us"
+#          url: /contact/
+#          weight: 10
+#          params:
+#            external: true
+#            button: true
 #      footer_primary:
 #        - name: "Services"
 #          url: /services/
@@ -206,38 +206,38 @@ languages:
 #        - name: "Work"
 #          url: /work/
 #          weight: 2
-      footer_secondary:
-        - name: "Home"
-          url: /
-          pageRef: "home"
-          weight: 1
-        - name: "Services"
-          url: /services/
-          pageRef: "services"
-          weight: 2
-        - name: "Team"
-          url: /team/
-          pageRef: "team"
-          weight: 3
-        - name: "Contact"
-          url: /contact/
-          pageRef: "contact"
-          weight: 4
-      footer_tertiary:
+#      footer_secondary:
+#        - name: "Home"
+#          url: /
+#          pageRef: "home"
+#          weight: 1
+#        - name: "Services"
+#          url: /services/
+#          pageRef: "services"
+#          weight: 2
+#        - name: "Team"
+#          url: /team/
+#          pageRef: "team"
+#          weight: 3
+#        - name: "Contact"
+#          url: /contact/
+#          pageRef: "contact"
+#          weight: 4
+#      footer_tertiary:
 #        - name: Buy Now
 #          url: "https://www.zerostatic.io/theme/hugo-advance/"
 #          weight: 1
 #          params:
 #            external: true
 #            button: true
-        - name: "Privacy policy"
-          url: /privacy/
-          pageRef: "privacy"
-          weight: 1
-        - name: "Impressum"
-          url: /impressum/
-          pageRef: "impressum"
-          weight: 2
+#        - name: "Privacy policy"
+#          url: /privacy/
+#          pageRef: "privacy"
+#          weight: 1
+#        - name: "Impressum"
+#          url: /impressum/
+#          pageRef: "impressum"
+#          weight: 2
       bottom:
         - name: "Impressum"
           url: "/impressum/"
@@ -251,22 +251,22 @@ languages:
     languageName: Deutsch
     contentDir: content/de
     title: Cirro Cloud
-    params:
-      footer:
-        footer_primary_menu_title: ""
-        footer_secondary_menu_title: Unternehmen
-        footer_tertiary_menu_title: Sonstiges
+#    params:
+#      footer:
+#        footer_primary_menu_title: ""
+#        footer_secondary_menu_title: ""
+#        footer_tertiary_menu_title: ""
     menu:
       main:
-        - name: "Startseite"
-          identifier: home
-          url: /
-          pageRef: home
-          weight: 1
-        - name: "Dienstleistungen"
-          identifier: services
-          url: /services/
-          weight: 2
+        - name: ""
+#          identifier: home
+#          url: /
+#          pageRef: home
+#          weight: 1
+#        - name: "Dienstleistungen"
+#          identifier: services
+#          url: /services/
+#          weight: 2
 #        - name: "Notre Travail"
 #          identifier: work
 #          url: /work/
@@ -275,50 +275,50 @@ languages:
 #          identifier: blog
 #          url: /blog/
 #          weight: 3
-        - name: "Team"
-          identifier: team
-          url: /team/
-          pageRef: team
-          weight: 4
-        - name: "Kontakt"
-          url: /contact/
-          weight: 10
-          params:
-            external: true
-            button: true
-      footer_primary:
-        - name: ""
+#        - name: "Team"
+#          identifier: team
+#          url: /team/
+#          pageRef: team
+#          weight: 4
+#        - name: "Kontakt"
+#          url: /contact/
+#          weight: 10
+#          params:
+#            external: true
+#            button: true
+#      footer_primary:
+#        - name: ""
 #          url: /services/
 #          weight: 1
 #        - name: "Work"
 #          url: /work/
 #          weight: 2
-      footer_secondary:
-        - name: "Startseite"
-          url: /
-          pageRef: "home"
-          weight: 1
-        - name: "Dienstleistungen"
-          url: /services/
-          pageRef: "services"
-          weight: 2
-        - name: "Team"
-          url: /team/
-          pageRef: "team"
-          weight: 3
-        - name: "Kontakt"
-          url: /contact/
-          pageRef: "contact"
-          weight: 4
-      footer_tertiary:
-        - name: "Datenschutz"
-          url: /privacy/
-          pageRef: "privacy"
-          weight: 1
-        - name: "Impressum"
-          url: /impressum/
-          pageRef: "impressum"
-          weight: 2
+#      footer_secondary:
+#        - name: "Startseite"
+#          url: /
+#          pageRef: "home"
+#          weight: 1
+#        - name: "Dienstleistungen"
+#          url: /services/
+#          pageRef: "services"
+#          weight: 2
+#        - name: "Team"
+#          url: /team/
+#          pageRef: "team"
+#          weight: 3
+#        - name: "Kontakt"
+#          url: /contact/
+#          pageRef: "contact"
+#          weight: 4
+#      footer_tertiary:
+#        - name: "Datenschutz"
+#          url: /privacy/
+#          pageRef: "privacy"
+#          weight: 1
+#        - name: "Impressum"
+#          url: /impressum/
+#          pageRef: "impressum"
+#          weight: 2
       bottom:
         - name: "Impressum"
           url: "/impressum/"

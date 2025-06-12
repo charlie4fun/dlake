@@ -3,20 +3,5 @@
     "title": "LinkedIn",
     "fa_icon": "fab fa-linkedin",
     "url": "https://www.linkedin.com/company/ci-cloud"
-  },
-  {
-    "title": "Schedule a Call",
-    "fa_icon": "fas fa-square-phone",
-    "url": "https://calendly.com/customer-ci-cloud/cirro-cloud-consulting"
-  },
-  {
-    "title": "Email",
-    "fa_icon": "fas fa-square-envelope",
-    "url": "mailto:customer@ci-cloud.de"
-  },
-  {
-    "title": "Rate us on Google Maps",
-    "fa_icon": "fas fa-square-plus",
-    "url": "https://maps.app.goo.gl/ygbjgsvjk28ANioc8"
   }
 ]

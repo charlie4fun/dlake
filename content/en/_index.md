@@ -39,18 +39,18 @@ hero:
   buttons:
     - button:
       text: "Learn More"
-      url: "services/"
-      external: false
+      url: "https://ci-cloud.de/"
+      external: true
       fa_icon: false
       outline: true
       style: "transparent"
 services:
-  enabled: true
+  enabled: false
   show_view_all: true
   sort_by: "weight" # "date" "weight"
   limit: 3
 intro:
-  enabled: true
+  enabled: false
   align: left
   image: "images/photos/content/content-5.webp"
   heading: "We've helped biggest players to improve their business."
@@ -71,7 +71,7 @@ work:
   show_view_all: false
   limit: 2
 outro:
-  enabled: true
+  enabled: false
   align: center
   image: ""
   heading: Get Started Today
