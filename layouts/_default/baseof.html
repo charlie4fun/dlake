@@ -13,11 +13,12 @@
 
     {{ partial "framework/head/css.html" . }}
     {{ partial "framework/head/feed.html" . }}
-    {{ if .Site.Params.favicon.extended }}
-        {{ partial "framework/head/favicon-extended.html" . }}
-    {{ else }}
-        {{ partial "framework/head/favicon.html" . }}
-    {{ end }}
+<!--    {{ if .Site.Params.favicon.extended }}-->
+<!--        {{ partial "framework/head/favicon-extended.html" . }}-->
+<!--    {{ else }}-->
+<!--        {{ partial "framework/head/favicon.html" . }}-->
+<!--    {{ end }}-->
+    {{ partial "framework/head/favicon.html" . }}
     {{ partial "framework/head/og-meta-tags.html" . }}
     {{ partial "framework/head/seo-meta-tags.html" . }}
     {{ partial "framework/head/fonts.html" . }}
