@@ -11,7 +11,7 @@ summary_type: "framework/summary/summary-team.html"
 
 hero:
   headings:
-    heading: "Lernen Sie unser Team kennen"
+    heading: "Unser Team"
   background:
     background_image: "images/photos/home/team-large.webp"
     background_image_blend_mode: "overlay"
