@@ -6,6 +6,18 @@ header_transparent: false
 summary_type: "framework/summary/summary-team.html"
 
 hero:
+  type: hero
+  enabled: true
+  options:
+    paddingTop: ""
+    paddingBottom: false
+    borderTop: false
+    borderBottom: false
+    theme: primary
+    classes: "my-custom-class another-custom-class"
+  align_horizontal: left
+  align_vertical: middle
+  height: 500px
   headings:
     heading: "Meet The Team"
   background:

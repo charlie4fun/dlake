@@ -10,8 +10,20 @@ summary_type: "framework/summary/summary-team.html"
 #    weight: 2
 
 hero:
+  type: hero
+  enabled: true
+  options:
+    paddingTop: ""
+    paddingBottom: false
+    borderTop: false
+    borderBottom: false
+    theme: primary
+    classes: "my-custom-class another-custom-class"
+  align_horizontal: left
+  align_vertical: middle
+  height: 500px
   headings:
-    heading: "Unser Team"
+    heading: "Lernen Sie unser Team kennen"
   background:
     background_image: "images/photos/home/team-large.webp"
     background_image_blend_mode: "overlay"

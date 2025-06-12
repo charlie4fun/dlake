@@ -6,6 +6,18 @@ date: 2018-02-10T11:52:18+07:00
 header_transparent: true
 
 hero:
+  type: hero
+  enabled: true
+  options:
+    paddingTop: ""
+    paddingBottom: false
+    borderTop: false
+    borderBottom: false
+    theme: primary
+    classes: "my-custom-class another-custom-class"
+  align_horizontal: left
+  align_vertical: middle
+  height: 500px
   headings:
     heading: "Services"
     sub_heading: "We deliver a complete range of IT services."

@@ -19,8 +19,8 @@ hero:
   fullscreen_mobile: true
   fullscreen_desktop: false
   headings:
-    heading: Cirro Cloud
-    sub_heading: Beratung im Bereich Informationstechnologie. Erstklassige Branchenerfahrung und moderne Lösungen stehen Ihnen zur Verfügung.
+    heading: Beratung im IT.
+    sub_heading: ""
     text: ''
     text_color: "#FFFFFF"
     text_color_dark: "#FFFFFF"

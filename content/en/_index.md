@@ -19,8 +19,8 @@ hero:
   fullscreen_mobile: true
   fullscreen_desktop: false
   headings:
-    heading: Cirro Cloud
-    sub_heading: Consulting in information technologies area. Best industrial experience and state-of-the-art solutions at your disposal.
+    heading: Consulting in IT.
+    sub_heading: ""
     text: ''
     text_color: "#FFFFFF"
     text_color_dark: "#FFFFFF"

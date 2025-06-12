@@ -57,13 +57,13 @@ params:
   logo:
     logo_text: ""
     logo_image_desktop: images/logo/logo.png
-    logo_image_mobile: images/logo/logo-mobile.png
+    logo_image_mobile: images/logo/logo.png
     logo_image_desktop_invert: images/logo/logo-invert.png # used on transparent header and when in dark mode. Normally a white version of the logo.
-    logo_image_mobile_invert: images/logo/logo-invert-mobile.png # used on transparent header and when in dark mode. Normally a white version of the logo.
+    logo_image_mobile_invert: images/logo/logo-invert.png # used on transparent header and when in dark mode. Normally a white version of the logo.
     logo_image_desktop_height: "36px"
     logo_image_desktop_width: "272px"
-    logo_image_mobile_height: "30px"
-    logo_image_mobile_width: "34px"
+    logo_image_mobile_height: "36px"
+    logo_image_mobile_width: "272px"
     show_logo_image_on_mobile: true
     show_logo_image_on_desktop: true
     show_logo_text_on_mobile: false

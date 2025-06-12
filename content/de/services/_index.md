@@ -17,7 +17,7 @@ hero:
     classes: "my-custom-class another-custom-class"
   align_horizontal: left
   align_vertical: middle
-  height: 600px
+  height: 500px
   headings:
     heading: "Leistungen"
     sub_heading: "Wir bieten ein umfassendes Spektrum an IT-Dienstleistungen."
