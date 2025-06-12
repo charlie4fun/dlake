@@ -82,38 +82,46 @@
                         blocks: [
                             {
                                 title: 'Verwendung von Cookies 📢',
-                                description: 'Ich verwende Cookies, um die Grundfunktionen der Website zu gewährleisten und Ihr Online-Erlebnis zu verbessern. Sie können für jede Kategorie jederzeit die Zustimmung/Abmeldung aktivieren. Weitere Informationen zu Cookies und anderen sensiblen Daten finden Sie in der vollständigen <a href="/privacy/" class="cc-link">prDatenschutzrichtlinie</a>.'
+                                description: 'Wir verwenden Cookies, um die Grundfunktionen der Website zu gewährleisten und Ihr Online-Erlebnis zu verbessern. Sie können für jede Kategorie jederzeit die Zustimmung/Abmeldung aktivieren. Weitere Informationen zu Cookies und anderen sensiblen Daten finden Sie in der vollständigen <a href="/privacy/" class="cc-link">Datenschutzrichtlinie</a>.'
                             }, 
                             {
                                 title: 'Unbedingt erforderliche Cookies',
-                                description: 'Diese Cookies sind für das ordnungsgemäße Funktionieren meiner Website unerlässlich. Ohne diese Cookies würde die Website nicht richtig funktionieren',
+                                description: 'Diese Cookies sind für das ordnungsgemäße Funktionieren meiner Website unerlässlich. Ohne diese Cookies würde die Website nicht richtig funktionieren.',
                                 toggle: {
                                     value: 'necessary',
                                     enabled: true,
                                     readonly: true          // cookie categories with readonly=true are all treated as "necessary cookies"
-                                }
+                                },
+                                cookie_table: [
+                                    {
+                                        col1: 'cc_cookie',
+                                        col2: '.dlake.de',
+                                        col3: 'Ca. 182 Tage',
+                                        col4: 'Wird verwendet, um sich Ihre Auswahl auf der Website zu merken, hauptsächlich in Bezug auf Sprache und die Zustimmung zu Cookies.',
+                                    }
+                                ]
                             }, 
                             {
                                 title: 'Leistungs- und Analyse-Cookies',
-                                description: 'Diese Cookies ermöglichen es der Website, sich an die Entscheidungen zu erinnern, die Sie in der Vergangenheit getroffen haben.',
+                                description: 'Diese Cookies ermöglichen es uns, das Layout und die Inhalte der Website zu verbessern, um sie für Sie nützlicher zu gestalten.',
                                 toggle: {
-                                    value: 'analytics',     // your cookie category
+                                    value: 'analytics',
                                     enabled: false,
                                     readonly: false
                                 },
-                                cookie_table: [             // list of all expected cookies
+                                cookie_table: [
                                     {
-                                        col1: '^_ga',       // match all cookies starting with "_ga"
-                                        col2: 'google.com',
-                                        col3: '2 years',
-                                        col4: 'description ...',
+                                        col1: '^_ga',
+                                        col2: '.dlake.de',
+                                        col3: 'Ca. 400 Tage',
+                                        col4: 'Wird von Google Analytics verwendet, um einzelne Nutzer über verschiedene Besuche hinweg zu identifizieren.',
                                         is_regex: true
                                     },
                                     {
-                                        col1: '_gid',
-                                        col2: 'google.com',
-                                        col3: '1 day',
-                                        col4: 'description ...',
+                                        col1: '_gcl_au',
+                                        col2: '.dlake.de',
+                                        col3: 'Ca. 120 Tage',
+                                        col4: 'Wird von Google Ads zur Conversion-Verfolgung und zur Messung der Wirksamkeit von Werbekampagnen verwendet.',
                                     }
                                 ]
                             },
@@ -153,36 +161,44 @@
                         blocks: [
                             {
                                 title: 'Cookie usage 📢',
-                                description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="/en/privacy/" class="cc-link">privacy policy</a>.'
+                                description: 'We use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="/en/privacy/" class="cc-link">privacy policy</a>.'
                             }, {
                                 title: 'Strictly necessary cookies',
-                                description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
+                                description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly.',
                                 toggle: {
                                     value: 'necessary',
                                     enabled: true,
-                                    readonly: true          // cookie categories with readonly=true are all treated as "necessary cookies"
-                                }
+                                    readonly: true
+                                },
+                                cookie_table: [
+                                    {
+                                        col1: 'cc_cookie',
+                                        col2: '.dlake.de',
+                                        col3: '~182 days',
+                                        col4: 'Used to remember you choices on the web-site, mostly about language and cookies consent.',
+                                    }
+                                ]
                             }, {
                                 title: 'Performance and Analytics cookies',
-                                description: 'These cookies allow the website to remember the choices you have made in the past',
+                                description: 'These cookies allow us to improve the web-site layouts and content to make it more useful for you.',
                                 toggle: {
-                                    value: 'analytics',     // your cookie category
+                                    value: 'analytics',
                                     enabled: false,
                                     readonly: false
                                 },
-                                cookie_table: [             // list of all expected cookies
+                                cookie_table: [
                                     {
-                                        col1: '^_ga',       // match all cookies starting with "_ga"
-                                        col2: 'google.com',
-                                        col3: '2 years',
-                                        col4: 'description ...',
+                                        col1: '^_ga',
+                                        col2: '.dlake.de',
+                                        col3: '~400 days',
+                                        col4: 'Used by Google Analytics to identify unique users across different visits to a website.',
                                         is_regex: true
                                     },
                                     {
-                                        col1: '_gid',
-                                        col2: 'google.com',
-                                        col3: '1 day',
-                                        col4: 'description ...',
+                                        col1: '_gcl_au',
+                                        col2: '.dlake.de',
+                                        col3: '~120 days',
+                                        col4: 'Used by Google Ads for conversion tracking and measuring the effectiveness of advertising campaigns.',
                                     }
                                 ]
                             },
