@@ -327,15 +327,15 @@ languages:
           url: "/privacy/"
           weight: 2
 
-permalinks:
-  posts: "blog/:year/:month/:title/"
-  pages: ":slug/"
+#permalinks:
+#  posts: "blog/:year/:month/:title/"
+#  pages: ":slug/"
 
 taxonomies:
   tag: tags
   category: categories
-  portfolio: portfolio
-  author: authors
+#  portfolio: portfolio
+#  author: authors
 
 markup:
   goldmark:
