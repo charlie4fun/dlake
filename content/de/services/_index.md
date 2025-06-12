@@ -6,6 +6,18 @@ date: 2025-04-01
 header_transparent: true
 
 hero:
+  type: hero
+  enabled: true
+  options:
+    paddingTop: ""
+    paddingBottom: false
+    borderTop: false
+    borderBottom: false
+    theme: primary
+    classes: "my-custom-class another-custom-class"
+  align_horizontal: left
+  align_vertical: middle
+  height: 600px
   headings:
     heading: "Leistungen"
     sub_heading: "Wir bieten ein umfassendes Spektrum an IT-Dienstleistungen."
