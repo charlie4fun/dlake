@@ -7,7 +7,7 @@ header_transparent: true
 
 hero:
   headings:
-    heading: "Dienstleistungen"
+    heading: "Leistungen"
     sub_heading: "Wir bieten ein umfassendes Spektrum an IT-Dienstleistungen."
   background:
     background_image: "images/photos/home/services-large.webp"
